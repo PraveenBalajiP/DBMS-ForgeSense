@@ -1,18 +1,22 @@
 node_modules/
 .next/
-out/
-dist/
-coverage/
-
+.venv/
+__pycache__/
+*.pyc
 .env
 .env.*
 !.env.example
-.env.local
-
+!.env.test.example
 *.log
-npm-debug.log*
-yarn-debug.log*
-pnpm-debug.log*
+*.zip
+ml/artifacts/*.json
+ml/artifacts/*.csv
+ml/artifacts/plots/
 
-.DS_Store
-Thumbs.db
+
+.githooks
+.github
+
+docs
+!docs/DBMS Mini-ER Diagram.jpeg
+!docs/DBMS-Relational Schema.pdf

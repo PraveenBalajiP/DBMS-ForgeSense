@@ -1,0 +1,24 @@
+{
+  "name": "iiot-predictive-maintenance",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Convenience scripts for the whole repo. Backend and frontend each have their own package.json.",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "install:all": "npm install && npm --prefix backend install && npm --prefix frontend install",
+    "dev": "concurrently -n api,web -c blue,green \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "dev:backend": "npm --prefix backend run dev",
+    "dev:frontend": "npm --prefix frontend run dev",
+    "build": "npm --prefix frontend run build",
+    "db:setup": "npm --prefix backend run db:setup",
+    "db:reset": "npm --prefix backend run db:reset",
+    "doctor": "npm --prefix backend run doctor",
+    "seed:mongo": "npm --prefix backend run seed:mongo",
+    "load:sample": "npm --prefix backend run load:sample",
+    "test:unit": "npm --prefix backend run test:unit",
+    "verify": "node scripts/pre-push-check.js"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}

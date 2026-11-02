@@ -1,4 +1,4 @@
-numpy>=1.26,<3.0
-pandas>=2.2,<4.0
-scikit-learn>=1.5,<2.0
-matplotlib>=3.9,<4.0
+# Python dependencies for the OFFLINE regression models in ml/python (the web app itself needs no Python).
+# Install:  python -m venv .venv  &&  (Windows) .venv\Scripts\activate  /  (macOS/Linux) source .venv/bin/activate
+#           pip install -r requirements.txt
+-r ml/requirements.txt

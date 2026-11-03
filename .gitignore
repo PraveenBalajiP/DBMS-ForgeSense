@@ -20,3 +20,4 @@ ml/artifacts/plots/
 docs
 !docs/DBMS Mini-ER Diagram.jpeg
 !docs/DBMS-Relational Schema.pdf
+ml/artifacts/.gitkeep

@@ -1,0 +1,6932 @@
+{
+ "description": "Synthetic 24 h of readings, one every 30 minutes for all 18 seeded sensors. minutes_ago is relative to the moment the file is loaded. Scenarios: machine 3 temperature climbing towards its 85 C limit; machine 4 vibration crossing its 7.1 mm/s limit; machine 2 pressure falling towards its 2 bar minimum; machine 5 temperature sitting in the WARN zone; everything else stable.",
+ "sensor_limits": {
+  "Temperature": {
+   "max": 85
+  },
+  "Vibration": {
+   "max": 7.1
+  },
+  "Pressure": {
+   "min": 2,
+   "max": 8
+  },
+  "Current": {
+   "max": 40
+  }
+ },
+ "readings": [
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.57,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.98,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.84,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.17,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.2,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 6.48,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.14,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.31,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.83,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.39,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.19,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.86,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 77.66,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.62,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.21,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 64.44,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.88,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.07,
+   "minutes_ago": 1410
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.48,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.95,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.96,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.96,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.99,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 6.58,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.89,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.83,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.12,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 64.75,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.28,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.11,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 77.01,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.07,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.99,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.16,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.85,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.56,
+   "minutes_ago": 1380
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.67,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.04,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.93,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.29,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.55,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 6.19,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.95,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.91,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.18,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.04,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.21,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.57,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 73.89,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.3,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.75,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.02,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.0,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.92,
+   "minutes_ago": 1350
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.11,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.37,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.46,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.81,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.44,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 6.3,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.39,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.27,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.19,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.89,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.61,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.59,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 74.79,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.42,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.76,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.63,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.04,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.66,
+   "minutes_ago": 1320
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.62,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.11,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.39,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.78,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.09,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 6.3,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.18,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.27,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.35,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.03,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.71,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.03,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 72.09,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.64,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.96,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 69.26,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.44,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.56,
+   "minutes_ago": 1290
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.51,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.02,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.17,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.47,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.16,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 6.32,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.52,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.96,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.86,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 63.83,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.3,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.59,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 73.03,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.26,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.39,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.4,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.57,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.63,
+   "minutes_ago": 1260
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.0,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.91,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.23,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.34,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.87,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 6.08,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.6,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.43,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.28,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 52.81,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.44,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.2,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 69.29,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.62,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.05,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.88,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.05,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.56,
+   "minutes_ago": 1230
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.2,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.82,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.31,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.87,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.2,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 6.09,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.61,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.23,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.8,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.46,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.83,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.57,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 66.94,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.14,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.17,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.9,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.15,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.62,
+   "minutes_ago": 1200
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.35,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.47,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.77,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.65,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.98,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.86,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 63.42,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.87,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.9,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.59,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.61,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.01,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 66.38,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.17,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.92,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.88,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.97,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.74,
+   "minutes_ago": 1170
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.35,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.7,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.13,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.37,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.05,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.74,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 64.09,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.82,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.3,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 50.26,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.82,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.78,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 63.46,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.36,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.88,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.26,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.16,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.79,
+   "minutes_ago": 1140
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.7,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.38,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.22,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.55,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.32,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.66,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 66.68,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.48,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.21,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 51.94,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.96,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.99,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.8,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.29,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.05,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.72,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.03,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.72,
+   "minutes_ago": 1110
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.49,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.49,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.03,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.47,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.03,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.79,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 66.05,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.14,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.0,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.85,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.12,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.26,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.11,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.44,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.09,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.8,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.24,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.41,
+   "minutes_ago": 1080
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.97,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.7,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 23.44,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.9,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.96,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.65,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 66.6,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.98,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.7,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.21,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.06,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.64,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.88,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.23,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.27,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.64,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.4,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.44,
+   "minutes_ago": 1050
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.33,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.17,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.07,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.4,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.22,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.51,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 64.95,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.93,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.14,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.39,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.18,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 23.48,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.63,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.25,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.0,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.04,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.84,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.37,
+   "minutes_ago": 1020
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.79,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.7,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.83,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.26,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.1,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.71,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 67.06,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.63,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.84,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.32,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.13,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.27,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.22,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.93,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.83,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.34,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.11,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.14,
+   "minutes_ago": 990
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.96,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.01,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.18,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.1,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.27,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.29,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 65.33,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.15,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.77,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.51,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.5,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.21,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.49,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.14,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.88,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.82,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.79,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.85,
+   "minutes_ago": 960
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.74,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.53,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.06,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.82,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.46,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.27,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 67.52,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.36,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.84,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.83,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.32,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.14,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 52.95,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.64,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.05,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.69,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.1,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.36,
+   "minutes_ago": 930
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.93,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.69,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.0,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.83,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.9,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.15,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 68.1,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.14,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.06,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.69,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.51,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.09,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 52.87,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.13,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.39,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.07,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.86,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.73,
+   "minutes_ago": 900
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.12,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.21,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.59,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.86,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.14,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.01,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 67.12,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.42,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.47,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.95,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.47,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.46,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 47.8,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.14,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.92,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.44,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.46,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.73,
+   "minutes_ago": 870
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.68,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.29,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.42,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 64.46,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.81,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.17,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 70.89,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.16,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.09,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.02,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.63,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.61,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 49.55,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.03,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.74,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.21,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.17,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.48,
+   "minutes_ago": 840
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.6,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.09,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.36,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.73,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.85,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.01,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 69.62,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.47,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.04,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.71,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.67,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.87,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 45.52,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.48,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.78,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.15,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.87,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.51,
+   "minutes_ago": 810
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.64,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.45,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.04,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.11,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.3,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.63,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 67.1,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.14,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.85,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.37,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.74,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.42,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 43.23,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.9,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.48,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 52.81,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.09,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.28,
+   "minutes_ago": 780
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.06,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.4,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.33,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.34,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.31,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.64,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 70.49,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.49,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.26,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.07,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.7,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.23,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 45.4,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.52,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.08,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.78,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.57,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 23.12,
+   "minutes_ago": 750
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.47,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.01,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.45,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.45,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.9,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.64,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 69.79,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.44,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.15,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.27,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.02,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.04,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 41.02,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.87,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.66,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.05,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.0,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.75,
+   "minutes_ago": 720
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.62,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.42,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.15,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.36,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.68,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.58,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 70.73,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.16,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.85,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.36,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.19,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.07,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 40.81,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.83,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.69,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.28,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.71,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.78,
+   "minutes_ago": 690
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.28,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.99,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.14,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.56,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.01,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.28,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 71.73,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.9,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.83,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.38,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.1,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.54,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 38.49,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.27,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.51,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 65.02,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.72,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.96,
+   "minutes_ago": 660
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.13,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.0,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.33,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.59,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.37,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.11,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 72.09,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.87,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.17,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.32,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.24,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.2,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 33.83,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.25,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.72,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.47,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.1,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.27,
+   "minutes_ago": 630
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.74,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.91,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.19,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.46,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.44,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.05,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 69.62,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.94,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.62,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.28,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.33,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.36,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 34.34,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.3,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.14,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.51,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.81,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.63,
+   "minutes_ago": 600
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.35,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.53,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.33,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 52.82,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.65,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.15,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 71.12,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.86,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.92,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.18,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.42,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 30.12,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 31.9,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.57,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.67,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.5,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.5,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.78,
+   "minutes_ago": 570
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.66,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.0,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.0,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.9,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.11,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.06,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 73.88,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.5,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.84,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.15,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.4,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.97,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 29.26,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.06,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.56,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.73,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.62,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.62,
+   "minutes_ago": 540
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.7,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.18,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 30.43,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.69,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.64,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.02,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 74.97,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.18,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.02,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.64,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.46,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.28,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 27.09,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.36,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.04,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.47,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.55,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.05,
+   "minutes_ago": 510
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.46,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.46,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.42,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.18,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.05,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.82,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 76.13,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.75,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.05,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.61,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.63,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.64,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 27.68,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.88,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.91,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 65.12,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.17,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.9,
+   "minutes_ago": 480
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 50.14,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.95,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.05,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.61,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.63,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.69,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 76.46,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 5.0,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.01,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.41,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.59,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.7,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 26.6,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.64,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.11,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.03,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.14,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.51,
+   "minutes_ago": 450
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.18,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.1,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.05,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.82,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.36,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.52,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 72.28,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.21,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.28,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.59,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.52,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.63,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 24.7,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.42,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.19,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.04,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.49,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.52,
+   "minutes_ago": 420
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.25,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.56,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.82,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.02,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.52,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.67,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 76.11,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.66,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.06,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.54,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.74,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.63,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 22.21,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.39,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.0,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.38,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.1,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.28,
+   "minutes_ago": 390
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.63,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.82,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.48,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.55,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.19,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.58,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 73.34,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.07,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.92,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 62.58,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.54,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.95,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 19.96,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.27,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.68,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.67,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.53,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.71,
+   "minutes_ago": 360
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.99,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.0,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.62,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.41,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.69,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.56,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 78.02,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.17,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.7,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.7,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 6.88,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.63,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 18.07,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.93,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.97,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.01,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.0,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.93,
+   "minutes_ago": 330
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.34,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.35,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.48,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.55,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.94,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.45,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 76.84,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.68,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.18,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.95,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.01,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.74,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 16.93,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.09,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.13,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.18,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.21,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.88,
+   "minutes_ago": 300
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.54,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.62,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.49,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.36,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.4,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.27,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 75.61,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.11,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.13,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.86,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.2,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 30.01,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 14.7,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.38,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.85,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.09,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.89,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 31.55,
+   "minutes_ago": 270
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.99,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.19,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.89,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.86,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.31,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.33,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 79.84,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.3,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.36,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.06,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.13,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.35,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 14.03,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.19,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.64,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.63,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.12,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.53,
+   "minutes_ago": 240
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.74,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.29,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.3,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.76,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.77,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 3.1,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 78.65,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.04,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.81,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.24,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.31,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.14,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 12.59,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.24,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.28,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.17,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.78,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.97,
+   "minutes_ago": 210
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 57.12,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.26,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.07,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.57,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.9,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 2.96,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 76.05,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.93,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.01,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.03,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.25,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 24.88,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 9.88,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.72,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.9,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.8,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.06,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.4,
+   "minutes_ago": 180
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.34,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.58,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.08,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.46,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.22,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 2.88,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 79.12,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.93,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.99,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 52.3,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.18,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.57,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 9.02,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.26,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.9,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 58.13,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.9,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.73,
+   "minutes_ago": 150
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 60.46,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.51,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.22,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 56.27,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.38,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 2.79,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 78.34,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.83,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.98,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.13,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.2,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.45,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 6.73,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.96,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.0,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.98,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.29,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.23,
+   "minutes_ago": 120
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.92,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.3,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.13,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.2,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.4,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 2.55,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 79.79,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.14,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.0,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.0,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.34,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.6,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 5.97,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.82,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.26,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 51.45,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.4,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 28.13,
+   "minutes_ago": 90
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.05,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.85,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 27.29,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.05,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.03,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 2.69,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 79.55,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.91,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.57,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.67,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.36,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 23.13,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 4.93,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.15,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.07,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.91,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.7,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.83,
+   "minutes_ago": 60
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.95,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.52,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.71,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 55.86,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.8,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 2.61,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 82.2,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.07,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.21,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 61.18,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.71,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 26.66,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 2.87,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.55,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 4.92,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 53.7,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.97,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 25.88,
+   "minutes_ago": 30
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.44,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.33,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 1,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 30.03,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.14,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 3.93,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 2,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 2.46,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 79.29,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.53,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 3,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.16,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 54.0,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 7.67,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 4,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 29.7,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 1.57,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.44,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 5,
+   "sensor_no": 3,
+   "sensor_type": "Pressure",
+   "unit": "bar",
+   "value": 5.17,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 1,
+   "sensor_type": "Temperature",
+   "unit": "°C",
+   "value": 59.76,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 2,
+   "sensor_type": "Vibration",
+   "unit": "mm/s",
+   "value": 4.09,
+   "minutes_ago": 0
+  },
+  {
+   "machine_id": 6,
+   "sensor_no": 3,
+   "sensor_type": "Current",
+   "unit": "A",
+   "value": 23.96,
+   "minutes_ago": 0
+  }
+ ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "iiot-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Next.js web interface for the IIoT Predictive Maintenance & Sensor Alert Engine",
+  "engines": { "node": ">=20.6" },
+  "scripts": {
+    "dev": "next dev -p 3000",
+    "build": "next build",
+    "start": "next start -p 3000"
+  },
+  "dependencies": {
+    "next": "15.5.28",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  }
+}

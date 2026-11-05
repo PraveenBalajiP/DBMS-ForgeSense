@@ -1,5 +1,7 @@
--- Run with the mysql CLI (it understands DELIMITER):  mysql -u root -p < sql/04_routines_triggers.sql
-
+-- =====================================================================
+-- 04_routines_triggers.sql  |  function, stored procedures (transactions), triggers
+-- Run with the mysql CLI (it understands DELIMITER):  mysql -u root -p < database/mysql/04_routines_triggers.sql
+-- =====================================================================
 USE Industrial_IoT;
 DROP FUNCTION  IF EXISTS fn_machine_age_years;
 DROP PROCEDURE IF EXISTS sp_raise_alert;
@@ -13,71 +15,73 @@ DROP TRIGGER   IF EXISTS trg_alert_bu;
 
 DELIMITER $$
 
--- FUNCTION: derived attribute Machine_Age (years, 1 decimal)
+-- ---------- FUNCTION: derived attribute Machine_Age (years, 1 decimal) ----------
 CREATE FUNCTION fn_machine_age_years(p_machine_id INT) RETURNS DECIMAL(5,1)
-      READS SQL DATA
-      BEGIN
-        DECLARE v_date DATE;
-        SELECT Installation_Date INTO v_date FROM MACHINE WHERE Machine_ID = p_machine_id;
-        RETURN ROUND(DATEDIFF(CURDATE(), v_date) / 365.25, 1);
-      END$$
+READS SQL DATA
+BEGIN
+  DECLARE v_date DATE;
+  SELECT Installation_Date INTO v_date FROM MACHINE WHERE Machine_ID = p_machine_id;
+  RETURN ROUND(DATEDIFF(CURDATE(), v_date) / 365.25, 1);
+END$$
 
--- PROCEDURE: raise (or de-duplicate) an alert, escalate, auto work order
+-- ---------- PROCEDURE: raise (or de-duplicate) an alert, escalate, auto work order ----------
 CREATE PROCEDURE sp_raise_alert(
-        IN p_machine INT, IN p_sensor INT, IN p_type VARCHAR(50), IN p_severity VARCHAR(20),
-        IN p_message VARCHAR(500), IN p_threshold DECIMAL(10,2), IN p_actual DECIMAL(10,2))
-      BEGIN
-        DECLARE v_alert INT DEFAULT NULL;
-        DECLARE v_new   TINYINT DEFAULT 0;
-        DECLARE v_wo    INT DEFAULT NULL;
-        DECLARE v_sys   INT DEFAULT NULL;
-        DECLARE v_days  INT DEFAULT 3;
-        DECLARE EXIT HANDLER FOR SQLEXCEPTION
-        BEGIN
-          ROLLBACK;
-          RESIGNAL;
-        END;
-START TRANSACTION;
+  IN p_machine INT, IN p_sensor INT, IN p_type VARCHAR(50), IN p_severity VARCHAR(20),
+  IN p_message VARCHAR(500), IN p_threshold DECIMAL(10,2), IN p_actual DECIMAL(10,2))
+BEGIN
+  DECLARE v_alert INT DEFAULT NULL;
+  DECLARE v_new   TINYINT DEFAULT 0;
+  DECLARE v_wo    INT DEFAULT NULL;
+  DECLARE v_sys   INT DEFAULT NULL;
+  DECLARE v_days  INT DEFAULT 3;
+  DECLARE EXIT HANDLER FOR SQLEXCEPTION
+  BEGIN
+    ROLLBACK;
+    RESIGNAL;
+  END;
+
+  START TRANSACTION;
 
   -- an unresolved alert of the same type on the same sensor is updated, not duplicated
-SELECT Alert_ID INTO v_alert FROM ALERT
-      WHERE Machine_ID = p_machine AND Sensor_No = p_sensor AND Alert_Type = p_type AND Status <> 'Resolved'
-      ORDER BY Created_At DESC LIMIT 1;
+  SELECT Alert_ID INTO v_alert FROM ALERT
+   WHERE Machine_ID = p_machine AND Sensor_No = p_sensor AND Alert_Type = p_type AND Status <> 'Resolved'
+   ORDER BY Created_At DESC LIMIT 1;
 
   IF v_alert IS NULL THEN
-      INSERT INTO ALERT (Machine_ID, Sensor_No, Alert_Type, Severity, Message, Threshold_Value, Actual_Value, Status)
-      VALUES (p_machine, p_sensor, p_type, p_severity, p_message, p_threshold, p_actual, 'Open');
-      SET v_alert = LAST_INSERT_ID();
-      SET v_new = 1;
-      UPDATE MACHINE
-        SET Status = CASE WHEN p_severity = 'Critical' THEN 'Faulted'
-                          WHEN Status = 'Operational' THEN 'Warning' ELSE Status END
-      WHERE Machine_ID = p_machine AND Status NOT IN ('Maintenance','Decommissioned');
+    INSERT INTO ALERT (Machine_ID, Sensor_No, Alert_Type, Severity, Message, Threshold_Value, Actual_Value, Status)
+    VALUES (p_machine, p_sensor, p_type, p_severity, p_message, p_threshold, p_actual, 'Open');
+    SET v_alert = LAST_INSERT_ID();
+    SET v_new = 1;
 
-      IF p_severity IN ('High','Critical') THEN
-        SELECT Work_Order_ID INTO v_wo FROM WORK_ORDER
-        WHERE Machine_ID = p_machine AND Status IN ('Open','In Progress') LIMIT 1;
-        IF v_wo IS NULL THEN
-          SELECT MIN(u.User_ID) INTO v_sys FROM `USER` u JOIN ROLE r ON r.Role_ID = u.Role_ID
-          WHERE r.Role_Name = 'Admin' AND u.Status = 'Active';
-          IF v_sys IS NOT NULL THEN
-            IF p_severity = 'Critical' THEN SET v_days = 1; END IF;
-            INSERT INTO WORK_ORDER (Priority, Description, Status, Due_Date, Machine_ID, Created_By_User_ID, Source_Alert_ID)
-            VALUES (IF(p_severity = 'Critical','Critical','High'), CONCAT('Auto-generated: ', p_message), 'Open',
-                    DATE_ADD(NOW(), INTERVAL v_days DAY), p_machine, v_sys, v_alert);
-            SET v_wo = LAST_INSERT_ID();
-          END IF;
+    UPDATE MACHINE
+       SET Status = CASE WHEN p_severity = 'Critical' THEN 'Faulted'
+                         WHEN Status = 'Operational' THEN 'Warning' ELSE Status END
+     WHERE Machine_ID = p_machine AND Status NOT IN ('Maintenance','Decommissioned');
+
+    IF p_severity IN ('High','Critical') THEN
+      SELECT Work_Order_ID INTO v_wo FROM WORK_ORDER
+       WHERE Machine_ID = p_machine AND Status IN ('Open','In Progress') LIMIT 1;
+      IF v_wo IS NULL THEN
+        SELECT MIN(u.User_ID) INTO v_sys FROM `USER` u JOIN ROLE r ON r.Role_ID = u.Role_ID
+         WHERE r.Role_Name = 'Admin' AND u.Status = 'Active';
+        IF v_sys IS NOT NULL THEN
+          IF p_severity = 'Critical' THEN SET v_days = 1; END IF;
+          INSERT INTO WORK_ORDER (Priority, Description, Status, Due_Date, Machine_ID, Created_By_User_ID, Source_Alert_ID)
+          VALUES (IF(p_severity = 'Critical','Critical','High'), CONCAT('Auto-generated: ', p_message), 'Open',
+                  DATE_ADD(NOW(), INTERVAL v_days DAY), p_machine, v_sys, v_alert);
+          SET v_wo = LAST_INSERT_ID();
         END IF;
       END IF;
-    ELSE
-      UPDATE ALERT SET Actual_Value = p_actual, Message = p_message WHERE Alert_ID = v_alert;
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  END IF;
+    END IF;
+  ELSE
+    UPDATE ALERT SET Actual_Value = p_actual, Message = p_message WHERE Alert_ID = v_alert;
+  END IF;
 
   COMMIT;
   SELECT v_alert AS Alert_ID, v_new AS Is_New, v_wo AS Work_Order_ID;
 END$$
 
--- PROCEDURE: consume a spare part (row locks + rollback on failure)
+-- ---------- PROCEDURE: consume a spare part (row locks + rollback on failure) ----------
 CREATE PROCEDURE sp_use_part(IN p_wo INT, IN p_part INT, IN p_qty INT)
 BEGIN
   DECLARE v_status VARCHAR(30) DEFAULT NULL;
@@ -117,7 +121,7 @@ BEGIN
   SELECT Quantity_In_Stock AS Remaining_Stock FROM PART WHERE Part_ID = p_part;
 END$$
 
--- PROCEDURE: close a work order atomically
+-- ---------- PROCEDURE: close a work order atomically ----------
 CREATE PROCEDURE sp_complete_work_order(IN p_wo INT, IN p_user INT)
 BEGIN
   DECLARE v_machine INT DEFAULT NULL;
@@ -160,7 +164,7 @@ BEGIN
   SELECT v_cost AS Total_Parts_Cost;
 END$$
 
--- PROCEDURE: add a sensor to a machine (weak entity partial key = next number)
+-- ---------- PROCEDURE: add a sensor to a machine (weak entity partial key = next number) ----------
 CREATE PROCEDURE sp_add_sensor(IN p_machine INT, IN p_code VARCHAR(50), IN p_type INT, IN p_install DATE)
 BEGIN
   DECLARE v_chk  INT DEFAULT NULL;
@@ -182,7 +186,7 @@ BEGIN
   SELECT v_next AS Sensor_No;
 END$$
 
--- TRIGGERS
+-- ---------- TRIGGERS ----------
 CREATE TRIGGER trg_wo_bi BEFORE INSERT ON WORK_ORDER FOR EACH ROW
 BEGIN
   IF NEW.Assigned_To_User_ID IS NOT NULL THEN

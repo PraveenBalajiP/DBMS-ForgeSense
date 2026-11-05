@@ -1,9 +1,12 @@
--- Run:  mysql -u root -p < sql/01_schema.sql
+-- =====================================================================
+-- 01_schema.sql  |  Industrial IoT Predictive Maintenance & Sensor Alert Engine
+-- Run:  mysql -u root -p < database/mysql/01_schema.sql
 -- Same entities as your Task 3 DDL, plus: AUTO_INCREMENT keys, SENSOR_TYPE
 -- (thresholds), MAINTENANCE_RECORD (with a PK), Resolved_By, Source_Alert_ID.
-
-DROP DATABASE IF EXISTS Industrial_IoT;
-CREATE DATABASE Industrial_IoT CHARACTER SET utf8mb4;
+-- =====================================================================
+-- NON-DESTRUCTIVE: this script never drops anything. If the tables already exist it stops with an error.
+-- To rebuild from scratch use `npm run db:reset` (explicit, guarded) instead of editing this file.
+CREATE DATABASE IF NOT EXISTS Industrial_IoT CHARACTER SET utf8mb4;
 USE Industrial_IoT;
 
 CREATE TABLE ROLE (
